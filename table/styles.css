@@ -1,0 +1,11 @@
+th{
+    color: red;
+}
+
+td, th{
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 600px;
+}
