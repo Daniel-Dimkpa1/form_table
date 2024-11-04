@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../form/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="main">
+
+        <div class="form">
+            <form action="">
+                <div class="names">
+                    <p><label for="firstName">First name</label> <br>
+                        <input class="input-text" type="text" name="firstName" placeholder="First name" id=""></p>
+                   <p> <label for="lastName"> Last name</label> <br>
+                    <input class="input-text" type="text" name="lastName" id="" placeholder="Last name"></p>
+                </div>
+                <label for="email">Email</label><br>
+                <input class="input-text" type="email" name="email" id="mail" placeholder="example@gmail.com">
+                <label for="tel">Phone Number</label>
+                <div class="phoneNo">
+                    <select name="countrie" class="c-code">
+                        <option value="US">US</option>
+                        <option value="NIG">NIG</option>
+                        <option value="ARG">ARG</option>
+                        <option value="CAN">CAN</option>
+                    </select>
+                    <input  type="tel" name="tel" class="phone" placeholder="+234 902110100">
+                </div>
+                <label for="message">Message</label> <br>
+                <textarea name="message" id="" placeholder="Leave us a message"></textarea>
+                <label for="Services">Services</label> <br>
+                <input type="checkbox" class="check" name="Services" id="" value="web">Website design
+                <input type="checkbox" class="check" name="Services" id="" value="content"> Content creation <br>
+                <input type="checkbox" class="check" name="Services" id="" value="ux"> UX design
+                <input type="checkbox" class="check" name="Services" id="" value="strategy"> Strategy & consulting <br> 
+                <input type="checkbox" class="check" name="Services" id="" value="research"> User research
+                <input type="checkbox" class="check" name="Services" id="" value="other"> Other
+                <button type="submit"> Send message </button>
     
+                <a href="./form2.html">Next</a>
+            </form>
+        </div>
+        <div class="handles">
+            <h3>Chat with us</h3>
+            <p>Speak to our friendly team via chat.</p>
+            <a href=""><i class="fa-brands fa-weixin"></i> Start a live chat</a> <br>
+            <a href="mailto:form@gmail.com"><i class="fa-regular fa-paper-plane"></i>Shoot us an email</a><br>
+            <a href="www.twitter.com"><i class="fa-solid fa-x"></i></i>Message us on X</a>
+
+            <h3 class="callUs">Call Us</h3>
+            <p>Call our team Mon-Fri from 8am to 5pm</p>
+            <a href=""><i class="fa-solid fa-phone-volume"></i>+1(555)000-000</a>
+            <h3 class="visitUs">Visit Us</h3>
+            <p>Chat to us in person at our Melbourne HQ.</p>
+            <a href=""><i class="fa-solid fa-location-dot"></i>100 Smith Street. Collingwood VIC 306</a>
+        </div>
+
+    </div>
 </body>
 </html>
