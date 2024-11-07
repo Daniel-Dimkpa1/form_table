@@ -11,7 +11,7 @@
     <div class="main">
 
         <div class="form">
-            <form action="">
+            <form action="https://httpbin.org/post" method="post">
                 <div class="names">
                     <p><label for="firstName">First name</label> <br>
                         <input class="input-text" type="text" name="firstName" placeholder="First name" id=""></p>
@@ -30,13 +30,13 @@
                     </select>
                     <input  type="tel" name="tel" class="phone" placeholder="+234 902110100">
                 </div>
-                <label for="message">Message</label> <br>
+                <label for="message">Message</label> <br> 
                 <textarea name="message" id="" placeholder="Leave us a message"></textarea>
                 <label for="Services">Services</label> <br>
                 <input type="checkbox" class="check" name="Services" id="" value="web">Website design
                 <input type="checkbox" class="check" name="Services" id="" value="content"> Content creation <br>
                 <input type="checkbox" class="check" name="Services" id="" value="ux"> UX design
-                <input type="checkbox" class="check" name="Services" id="" value="strategy"> Strategy & consulting <br> 
+                <input type="checkbox" class="check" name="Services" id="strat" value="strategy"> Strategy & consulting <br> 
                 <input type="checkbox" class="check" name="Services" id="" value="research"> User research
                 <input type="checkbox" class="check" name="Services" id="" value="other"> Other
                 <button type="submit"> Send message </button>
